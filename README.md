@@ -44,7 +44,7 @@ sudo nano /home/pi/pihole_maintenance_full.sh
 ```
 <br>
 
-Paste the script (edit your email):
+Paste the script or download [here](./scripts/)  (editing your email):
 
 ```bash
 #!/bin/bash
