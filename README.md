@@ -136,7 +136,7 @@ Open the root crontab:
 sudo crontab -e
 ```
 
-Add this line to run every Sunday at 3:15 AM:
+Add your own freq and time. Example: add this line to run every Sunday at 3:15 AM:
 ```
 15 3 * * 0 /home/pi/pihole_maintenance_full.sh
 ```
