@@ -3,6 +3,17 @@
 This script performs weekly automated maintenance for a Raspberry Pi running Pi-hole + Unbound.
 It handles updates, backups, cleanup, and email reports — fully unattended.
 <br><br>
+
+## Prerequisites
+Before running these scripts, ensure you have the following already installed and configured:
+
+- Pi-hole
+- Unbound (configured as recursive DNS)
+- Python Email Modules (for sending email alerts)
+- smtplib
+- email.mime
+<br>
+
 ## ✨ Features:
 🔄 Updates OS packages <br>
 🟩 Updates Pi-hole (gravity + core) <br>
@@ -15,6 +26,7 @@ It handles updates, backups, cleanup, and email reports — fully unattended.
 <br><br>
 
 ## 📂 File Locations:
+<br>
 
 | Purpose              | Path                                     |
 |----------------------|------------------------------------------|
@@ -32,7 +44,7 @@ sudo nano /home/pi/pihole_maintenance_full.sh
 ```
 <br>
 
-Paste the script:
+Paste the script (edit your email):
 
 ```bash
 #!/bin/bash
