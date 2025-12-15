@@ -170,3 +170,9 @@ To confirm cron is running:
 ```
 grep CRON /var/log/syslog
 ```
+<br>
+
+## 🙏 Credits
+Community troubleshooting + persistence.
+
+If this helped you — feel free to share or contribute improvements.
